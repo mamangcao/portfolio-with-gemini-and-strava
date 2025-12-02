@@ -30,32 +30,39 @@ Deployment	Vercel
 
 ⚙️ Environment Variables
 To run this project locally, you need to configure API keys for both Strava and Google Gemini. Create a .env.local file:
-code
 
-Bash
 # --- Strava API (For Running Dashboard) ---
-STRAVA_CLIENT_ID=your_strava_client_id
-STRAVA_CLIENT_SECRET=your_strava_client_secret
+```bash
+STRAVA_CLIENT_ID=your_id
+STRAVA_REFRESH_TOKEN=your_token
+```
 
 # Permanent Refresh Token (Scope: activity:read_all, profile:read_all)
+```bash
 STRAVA_REFRESH_TOKEN=your_strava_refresh_token
+```
 
 # --- Google Gemini (For AI Chatbot) ---
+```bash
 GOOGLE_API_KEY=your_gemini_api_key
+```
 
 🏃‍♂️ Getting Started
 
 Clone the repository:
-<> Bash
+```bash
 git clone https://github.com/mamangcao/portfolio-with-gemini-and-strava.git
 cd portfolio-with-gemini-and-strava
+```
 
 Install dependencies:
-<> Bash
+```bash
 npm install
+```
 
 Run the development server:.
-<> Bash
+```bash
 npm run dev
+```
 
 Open http://localhost:3000 with your browser.
