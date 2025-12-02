@@ -53,8 +53,8 @@ cd portfolio-with-gemini-and-strava
 Install dependencies:
 <> Bash
 npm install
-Run the development server:
 
+Run the development server:.
 <> Bash
 npm run dev
 
